@@ -1,1 +1,5 @@
 # mt-ui
+
+## LICENSE
+
+MIT
