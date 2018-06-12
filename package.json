@@ -2,9 +2,9 @@
   "name": "mt-ui",
   "version": "0.1.0",
   "description": "A plain js simple and common UI component library without any dependencies.",
-  "main": "index.js",
+  "main": "lib/mt-ui.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/txs1992/mt-ui/issues"
   },
-  "homepage": "https://github.com/txs1992/mt-ui#readme"
+  "homepage": "https://github.com/txs1992/mt-ui#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^0.60.2",
+    "rollup-plugin-babel": "^3.0.4"
+  }
 }
